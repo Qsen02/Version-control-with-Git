@@ -11,8 +11,8 @@ let reservation =
 
 function changeContent(className) {
     document.querySelectorAll('.custom-form').forEach(div => div.classList.add('hidden'));
-    if( document.querySelector(`.${className}`) != null){
-    document.querySelector(`.${className}`).classList.remove('hidden');
+    if (document.querySelector(`.${className}`) != null) {
+        document.querySelector(`.${className}`).classList.remove('hidden');
     }
 }
 
@@ -21,3 +21,6 @@ document.querySelector('#new-reservation').addEventListener('click', (e) => clea
 function cleanData(e) {
     changeContent('search-form-content');
 }
+
+
+
