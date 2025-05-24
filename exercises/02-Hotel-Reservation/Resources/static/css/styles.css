@@ -145,6 +145,24 @@ form h3 {
     text-align: center;
 }
 
+label {
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+input {
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
 
 ::placeholder {
     color: #e5e5e5;
@@ -166,7 +184,6 @@ button:hover {
     box-shadow: 1px 1px 11px 8px #e7a83a;
 }
 
-
 .site-content {
     height: 70%;
 }
@@ -186,7 +203,6 @@ button:hover {
 .selected-room{
     background-color: #cfcbca;
 }
-
 
 .shape:first-child {
     background: linear-gradient(#36251b, #7c4f30);
@@ -209,7 +225,6 @@ button:hover {
     justify-content: space-around;
     height: 77%;
 }
-
 .offer-card {
     display: flex;
     align-items: center;
@@ -244,3 +259,6 @@ button:hover {
     justify-content: center;
 }
 
+.selected-room{
+    background-color: #cfcbca !important;
+}
