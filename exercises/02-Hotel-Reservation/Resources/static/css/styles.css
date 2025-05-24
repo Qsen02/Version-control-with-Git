@@ -204,6 +204,27 @@ button:hover {
     background-color: #cfcbca;
 }
 
+.shape:first-child {
+    background: linear-gradient(#36251b, #7c4f30);
+    ;
+    left: -80px;
+    top: -80px;
+}
+
+.shape:last-child {
+    background: linear-gradient(to right, #daa022, #f09819);
+    ;
+    right: -30px;
+    bottom: -80px;
+}
+
+.offers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 77%;
+}
 .offer-card {
     display: flex;
     align-items: center;
@@ -227,6 +248,15 @@ button:hover {
 .offer-card img {
     max-width: 90px;
     margin-right: 20px;
+}
+
+.confirm-reservation {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-content: flex-end;
+    justify-content: center;
 }
 
 .selected-room{
