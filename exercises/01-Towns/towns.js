@@ -1,6 +1,7 @@
 $(document).ready(function () {
     $('#btnDelete').click(deleteTown);
     $('#btnShuffle').click(shuffleTowns);
+    $('#btnAdd').click(addTown);
 });
 
 function deleteTown() {
@@ -42,5 +43,12 @@ function shuffleTowns() {
 			array[j] = oldElement;
 		}
 	}
+}
+
+function addTown() {
+	let townName = $('#townNameForAdd').val();
+	$('#townNameForAdd').val('');
+	$('#towns').append($('<option>').text(townName));
+	$('#result').text(townName + " added.");
 }
 
