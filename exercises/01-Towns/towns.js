@@ -1,7 +1,7 @@
 $(document).ready(function() {
 	$('#btnDelete').click(deleteTown)
 	$('#btnAdd').click(addTown);
-  $('#btnShuffle').click(shuffleTowns);
+    $('#btnShuffle').click(shuffleTowns);
 });
 
 function deleteTown() {
@@ -14,10 +14,11 @@ function deleteTown() {
 			option.remove();
 		}
 	}
-	if (removed)
-		$('#result').text(townName + " deleted.");
-	else
-		$('#result').text(townName + " not found.");
+	    if (removed)
+        showMessage(townName + " deleted.");
+        else
+        showMessage(townName + " not found.");
+
 }
 
 function showMessage(msg) {
@@ -34,6 +35,7 @@ function addTown() {
 	$('#towns').append($('<option>').text(townName));
 	$('#result').text(townName + " added.");
 }
+
 function shuffleTowns() {
 	let towns = $('#towns option').toArray();
 	$('#towns').empty();
