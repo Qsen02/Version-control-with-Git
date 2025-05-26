@@ -2,5 +2,6 @@
 # Exercise for students in the teamwork course at SoftUni-Svetlina @Software Engineering cource
 
 # Roles
-  Borislav takes the role “Editor” and “Shuffler”.
-  Qsen takes the role “Styler”.
+  Aleks takes the role “Editor”
+  Qsen takes the role  "Shuffler"
+  Borislav takes the role “Styler”.
