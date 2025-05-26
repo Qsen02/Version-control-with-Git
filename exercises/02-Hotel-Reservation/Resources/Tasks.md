@@ -1,9 +1,9 @@
 In this folder you must upload solutions for:
 
--Questioner - Borislav
+-Questioner - Aleks
 
--Offerer - Borislav
+-Offerer - Aleks
 
--Admin - Qsen
+-Admin - Borislav
 
--Verifier - Qsen
+-Verifier - Borislav
