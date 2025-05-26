@@ -45,7 +45,7 @@ document.querySelectorAll('.room-type').forEach(room => {
 
 function selectRoomType(e) {
     let myTarget = undefined;
-    e.preventDefault;
+    e.preventDefault();
     if (e.target.querySelector('img') != null) {
         myTarget = e.target;
     } else {
