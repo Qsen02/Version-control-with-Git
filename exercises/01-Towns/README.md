@@ -3,5 +3,7 @@
 
 # Roles
   Aleks takes the role “Editor”
+  
   Qsen takes the role  "Shuffler"
+  
   Borislav takes the role “Styler”.
