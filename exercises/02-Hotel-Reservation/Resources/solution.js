@@ -60,7 +60,7 @@ document.querySelector('#search-next-btn').addEventListener('click', (e) => find
 
 function findRoom(e) {
     e.preventDefault();
-    const roomInfo = e.target.parentElement.parentElement.querySelector('.selected-room h4').textContent;
+    const roomInfo = e.target.closest('.custom-form').querySelector('.selected-room h4').textContent;
     reservation.roomType = roomInfo;
     console.log(reservation);
     changeContent('guest-details-form-content');
